@@ -19,7 +19,7 @@ namespace ThebeebsForward
         {
             app.Run(async (context) =>
             {
-                context.Response.Redirect("https://blogs.msdn.microsoft.com/thebeebs/");
+                //context.Response.Redirect("https://blogs.msdn.microsoft.com/thebeebs/");
                 await context.Response.WriteAsync("Forwarding to blog https://blogs.msdn.microsoft.com/thebeebs/");
             });
         }
