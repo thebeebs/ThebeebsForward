@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4E2E3719-C8A4-4098-87C1-159432199C8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{373F097B-D0BD-49B1-BE85-0933750CDDC5}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ThebeebsForward", "src\ThebeebsForward\ThebeebsForward.xproj", "{B3612591-D403-464A-9BF4-1C7FF8FAF00E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3612591-D403-464A-9BF4-1C7FF8FAF00E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3612591-D403-464A-9BF4-1C7FF8FAF00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3612591-D403-464A-9BF4-1C7FF8FAF00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3612591-D403-464A-9BF4-1C7FF8FAF00E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3612591-D403-464A-9BF4-1C7FF8FAF00E} = {4E2E3719-C8A4-4098-87C1-159432199C8A}
+	EndGlobalSection
+EndGlobal
